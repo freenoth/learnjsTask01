@@ -1,0 +1,40 @@
+.layout {
+  background: lightsalmon;
+  border-color: saddlebrown;
+}
+
+.username {
+  color: saddlebrown;
+  font-weight: bold;
+  font-size: x-large;
+  padding: 0 0;
+  margin: 0 0;
+}
+
+img {
+  margin: 10px 0;
+  border: solid 1px;
+  border-radius: 50px;
+  border-color: darkgray;
+}
+
+.inline {
+  width: 100%;
+  color: firebrick;
+}
+
+.inline div {
+  display: inline-block;
+  width: 149px;
+  text-align: center;
+}
+
+.likes {
+  border-right: solid 1px;
+  border-right-color: saddlebrown;
+}
+
+.followers {
+  border-left: solid 1px;
+  border-left-color: saddlebrown;
+}

@@ -1,0 +1,19 @@
+.main-layout {
+  width: auto;
+  text-align: center;
+}
+
+.main-layout div {
+  display: inline-block;
+  position: relative;
+  height: 771px;
+}
+
+.list {
+  vertical-align: top;
+}
+
+app-airports {
+  position: relative;
+  height: 100%;
+}

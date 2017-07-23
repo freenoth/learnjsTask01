@@ -1,0 +1,43 @@
+.air-layout {
+  padding: 0 0;
+  margin: 0 0;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  border-bottom: solid 1px;
+  border-color: grey;
+}
+
+h5 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.air-layout div {
+  display: inline-block;
+}
+
+p {
+  padding: 0 0;
+  margin: 2px 2px;
+  display: inline;
+}
+
+span {
+  flex: 1 1 auto;
+}
+
+img {
+  border: solid 1px;
+  border-color: grey;
+  border-radius: 50px;
+  display: inline;
+}
+
+.info {
+  width: 300px;
+}
+
+.images {
+  position: relative;
+  right: 0;
+}

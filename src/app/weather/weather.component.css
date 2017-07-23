@@ -1,0 +1,14 @@
+.layout {
+  background: cornflowerblue;
+  border-color: midnightblue;
+}
+
+p {
+  font-size: x-large;
+  color: midnightblue;
+  margin: 0 0;
+}
+
+.temp {
+  font-weight: bold;
+}
