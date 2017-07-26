@@ -19,6 +19,10 @@ export class AirportComponent implements OnInit {
 
   ngOnInit() {
   }
+
+  public clicked() {
+    this.choose.emit(this.airport);
+  }
 }
 
 export class Airport {
