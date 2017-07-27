@@ -1,9 +1,9 @@
 <div class="layout">
-  <img class="head-img" [src]="currentImage" width="400px" height="400px">
+  <img class="head-img" [src]="currentHeaderImage" width="400px" height="400px">
   <p class="header">Airports</p>
-  <app-airport [airport]="airportsList[0]" (choose)="chooseAirport($event)"></app-airport>
-  <app-airport [airport]="airportsList[1]" (choose)="chooseAirport($event)"></app-airport>
-  <app-airport [airport]="airportsList[2]" (choose)="chooseAirport($event)"></app-airport>
-  <app-airport [airport]="airportsList[3]" (choose)="chooseAirport($event)"></app-airport>
-  <app-airport [airport]="airportsList[4]" (choose)="chooseAirport($event)"></app-airport>
+  <app-airport [airport]="airportsList[0]" (choosed)="chooseAirport($event)"></app-airport>
+  <app-airport [airport]="airportsList[1]" (choosed)="chooseAirport($event)"></app-airport>
+  <app-airport [airport]="airportsList[2]" (choosed)="chooseAirport($event)"></app-airport>
+  <app-airport [airport]="airportsList[3]" (choosed)="chooseAirport($event)"></app-airport>
+  <app-airport [airport]="airportsList[4]" (choosed)="chooseAirport($event)"></app-airport>
 </div>

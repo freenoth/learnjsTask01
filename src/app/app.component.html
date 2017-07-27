@@ -5,7 +5,7 @@
 
 <div class="main-layout">
   <div class="list">
-    <app-airports [airportsList]="airports_list" (currentAirport)="chooseCurrent($event)"></app-airports>
+    <app-airports [airportsList]="airportsList" (airportChanged)="changeCurrent($event)"></app-airports>
   </div><div class="info">
     <app-weather [currentWeather]="currentAirport.weather"></app-weather>
     <app-socials [currentSocials]="currentAirport.socials"></app-socials>

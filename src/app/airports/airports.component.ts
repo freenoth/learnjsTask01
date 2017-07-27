@@ -7,23 +7,19 @@ import { Component, OnInit , Input , Output , EventEmitter } from '@angular/core
 })
 export class AirportsComponent implements OnInit {
   @Input()
-  public airportsList;
+  public airportsList: [IAirport];
 
   @Output()
-  currentAirport = new EventEmitter();
+  airportChanged = new EventEmitter();
 
-  public currentImage;
-
-  constructor() {
-  }
+  public currentHeaderImage: string;
 
   ngOnInit() {
-    this.currentImage = this.airportsList[0].image;
+    this.currentHeaderImage = this.airportsList[0].image;
   }
 
-  chooseAirport(airport) {
-    this.currentImage = airport.image;
-    this.currentAirport.emit(airport);
+  chooseAirport(airport: IAirport) {
+    this.currentHeaderImage = airport.image;
+    this.airportChanged.emit(airport);
   }
 }
-
